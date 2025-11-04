@@ -61,6 +61,6 @@ COPY ./docker/runner.sh ./runner.sh
 
 EXPOSE 80
 EXPOSE 3000
-VOLUME /data
+# VOLUME /data
 
 ENTRYPOINT ["./runner.sh"]
