@@ -78,7 +78,7 @@ export default defineConfig(({ mode }) => {
       port,
       host: true,
       strictPort: true,
-      allowedHosts: ['app.lago.dev'],
+      allowedHosts: ['app.lago.dev', "https://*.up.railway.app"],
     },
     preview: {
       port,
