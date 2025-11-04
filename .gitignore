@@ -1,0 +1,16 @@
+*.code-workspace
+.DS_Store
+.env
+.env.development
+.rsa_private.pem
+.vscode
+.zed
+/extra/ssl/certbot
+/extra/ssl/dhparam.pem
+/extra/ssl/nginx*
+/traefik/certs/*
+/deploy/letsencrypt
+./docker-compose/*
+docker-compose/lago_postgres_data/
+docker-compose/lago_redis_data/
+docker-compose/lago_storage_data/
